@@ -1,0 +1,233 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#ebebeb;
+ }
+  
+/* Multi use*/
+  
+.container{
+  	width:80%;
+	margin:auto;
+    overflow:hidden;
+  }
+  
+ul{ 
+  margin:0;       
+  padding:0;
+}
+.shadow{
+  padding:15px;
+  background:#002d54;
+  color:#ffffff;
+  margin-top:0px;
+  margin-bottom:10px;
+}
+.lighter{
+  padding:15px;
+  background:#0065bd;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:0px;
+}
+.button{
+  height:38px;
+  background:#727272;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+/*Header*/
+
+header{
+	background:#002d54;
+	color:#ffffff;
+	padding-top:30px;
+    min-height:70px;
+    border-bottom:#0065bd 3px solid;
+}
+
+header a{
+	color:#ffffff;
+  	text-decoration:none;
+  	text-transform: uppercase;
+    font-size:16px;
+}
+
+header li{
+	float:left;
+	display:inline;
+	padding: 0px 20px 0px 20px;
+}
+
+header #title-name{
+	float: left;
+}
+
+header #title-name h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#0065bd;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#0065bd;
+  font-weight:bold;
+}
+
+/*Main- info section*/
+
+#main-info{
+	min-height:400px;
+	background:url('../img/main-info-img.jpg');
+	background-size:cover;                     
+    background-repeat:no-repeat;
+    background-position:center center;
+	text-align:left;
+	color:#002d54;
+	border-bottom:#0065bd 3px solid;
+	}
+	
+
+#main-info h1{
+	margin-top:30px;
+	font-size:30px;
+	margin-bottom:10px;
+}
+
+#main-info p{
+  font-size:20px;
+  text-align:left;
+}
+
+/*=============================================================
+#main2-info{
+	min-height:400px;
+	background:url('../img/main-info-img.jpg');
+	background-size:cover;                     
+    background-repeat:no-repeat;
+    background-position:center center;
+	text-align:right;
+	color:#002d54;
+	border-bottom:#0065bd 3px solid;
+	}
+
+
+#main2-info h1{
+	margin-top:30px;
+	font-size:30px;
+	margin-bottom:10px;
+	text-align:right;
+}
+
+#main2-info p{
+  font-size:20px;
+  text-align:right;
+}
+
+*/
+
+
+
+
+/*Box display*/
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align:center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:90px;
+}
+
+/*Footer*/
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#002d54;
+  text-align:center;
+}
+
+/* Main-col used on FAQ page*/
+article#main-col{
+  float:left;
+  width:65%;
+}
+article#2nd-col{
+	float:right;
+	width:60%;
+}
+
+
+/* Sidebar */
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:60px;
+}
+aside#sidebar .reg input, aside#sidebar .reg textarea{
+  width:90%;
+  padding:5px;
+}
+
+
+
+aside#sidebar2{
+  float:right;
+  width:50%;
+  margin-top:60px;
+  margin-left:10px
+}
+aside#subbmitted{
+	float:middle;
+	width:30%;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+/*
+aside#sidebar2 .apply input, aside#sidebar .apply textarea{
+  width:50%;
+  padding:5px;
+}
+
+aside#sidebar2 h3{
+	text-align:center;
+}
+*/
+.apply{
+	text-align:left;
+	margin-left:30px;
+	
+}
+.apply input, .apply textarea{
+	width:30%;
+}
+
+/*Article (account page)*/
+article#account{
+	width:40%;
+	margin-top:60px;
+	margin-left:30%;		
+}
+
+.reg{
+	text-align:center;
+}
